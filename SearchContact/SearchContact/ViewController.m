@@ -75,7 +75,7 @@
 
 -(NSMutableArray*)dataSource{
     if (!_dataSource) {
-        _dataSource=[NSMutableArray arrayWithObjects:@"UISearchDisplayController",@"UISearchController", nil];
+        _dataSource=[NSMutableArray arrayWithObjects:@"UISearchController",@"UISearchDisplayController", nil];
     }
     return _dataSource;
 }

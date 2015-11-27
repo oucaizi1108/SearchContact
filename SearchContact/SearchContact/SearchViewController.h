@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
 
-@interface SearchViewController : BaseViewController
+@interface SearchViewController : BaseViewController<UITableViewDelegate,UITableViewDataSource>
+
+@property(nonatomic,strong) UITableView *ptableView;
 
 @end

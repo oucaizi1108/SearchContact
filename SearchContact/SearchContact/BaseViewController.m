@@ -13,6 +13,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
+    self.navigationController.navigationBar.translucent=NO;
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
-@interface SearchDisplayViewController : BaseViewController
+@interface SearchDisplayViewController : BaseViewController<UITableViewDelegate,UITableViewDataSource>
+
+@property(nonatomic,strong) UITableView *ptableView;
+
+
 
 @end

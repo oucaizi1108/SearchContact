@@ -24,6 +24,11 @@
 		340579BF1C082A61005BE372 /* PinYinForObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 340579B61C082A61005BE372 /* PinYinForObjc.m */; settings = {ASSET_TAGS = (); }; };
 		340579C01C082A61005BE372 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 340579B81C082A61005BE372 /* PinyinHelper.m */; settings = {ASSET_TAGS = (); }; };
 		340579C11C082A61005BE372 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 340579B91C082A61005BE372 /* unicode_to_hanyu_pinyin.txt */; settings = {ASSET_TAGS = (); }; };
+		34809C531C082C330085A1BB /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34809C521C082C330085A1BB /* ContactModel.m */; settings = {ASSET_TAGS = (); }; };
+		34809C561C082C4A0085A1BB /* ContactGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34809C551C082C4A0085A1BB /* ContactGroupModel.m */; settings = {ASSET_TAGS = (); }; };
+		34809C591C082C5E0085A1BB /* SearchResultHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 34809C581C082C5E0085A1BB /* SearchResultHandle.m */; settings = {ASSET_TAGS = (); }; };
+		34809C5C1C082D380085A1BB /* NSMutableArray+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 34809C5B1C082D380085A1BB /* NSMutableArray+Filter.m */; settings = {ASSET_TAGS = (); }; };
+		34809C5F1C0831BA0085A1BB /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34809C5E1C0831BA0085A1BB /* SearchResultViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +64,16 @@
 		340579B71C082A61005BE372 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
 		340579B81C082A61005BE372 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
 		340579B91C082A61005BE372 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		34809C511C082C330085A1BB /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		34809C521C082C330085A1BB /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		34809C541C082C4A0085A1BB /* ContactGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactGroupModel.h; sourceTree = "<group>"; };
+		34809C551C082C4A0085A1BB /* ContactGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactGroupModel.m; sourceTree = "<group>"; };
+		34809C571C082C5E0085A1BB /* SearchResultHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultHandle.h; sourceTree = "<group>"; };
+		34809C581C082C5E0085A1BB /* SearchResultHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultHandle.m; sourceTree = "<group>"; };
+		34809C5A1C082D380085A1BB /* NSMutableArray+Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Filter.h"; sourceTree = "<group>"; };
+		34809C5B1C082D380085A1BB /* NSMutableArray+Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Filter.m"; sourceTree = "<group>"; };
+		34809C5D1C0831BA0085A1BB /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		34809C5E1C0831BA0085A1BB /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +106,7 @@
 		340579871C0825E8005BE372 /* SearchContact */ = {
 			isa = PBXGroup;
 			children = (
+				34809C501C082C210085A1BB /* Model */,
 				340579A81C082A61005BE372 /* Lib */,
 				3405798B1C0825E8005BE372 /* AppDelegate.h */,
 				3405798C1C0825E8005BE372 /* AppDelegate.m */,
@@ -102,6 +118,8 @@
 				340579A31C082872005BE372 /* SearchViewController.m */,
 				3405799F1C082859005BE372 /* SearchDisplayViewController.h */,
 				340579A01C082859005BE372 /* SearchDisplayViewController.m */,
+				34809C5D1C0831BA0085A1BB /* SearchResultViewController.h */,
+				34809C5E1C0831BA0085A1BB /* SearchResultViewController.m */,
 				340579911C0825E8005BE372 /* Main.storyboard */,
 				340579941C0825E8005BE372 /* Assets.xcassets */,
 				340579961C0825E8005BE372 /* LaunchScreen.storyboard */,
@@ -148,6 +166,21 @@
 				340579B91C082A61005BE372 /* unicode_to_hanyu_pinyin.txt */,
 			);
 			path = PinYin;
+			sourceTree = "<group>";
+		};
+		34809C501C082C210085A1BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34809C511C082C330085A1BB /* ContactModel.h */,
+				34809C521C082C330085A1BB /* ContactModel.m */,
+				34809C541C082C4A0085A1BB /* ContactGroupModel.h */,
+				34809C551C082C4A0085A1BB /* ContactGroupModel.m */,
+				34809C571C082C5E0085A1BB /* SearchResultHandle.h */,
+				34809C581C082C5E0085A1BB /* SearchResultHandle.m */,
+				34809C5A1C082D380085A1BB /* NSMutableArray+Filter.h */,
+				34809C5B1C082D380085A1BB /* NSMutableArray+Filter.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,19 +254,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34809C591C082C5E0085A1BB /* SearchResultHandle.m in Sources */,
 				340579901C0825E8005BE372 /* ViewController.m in Sources */,
 				340579BD1C082A61005BE372 /* NSString+PinYin4Cocoa.m in Sources */,
+				34809C561C082C4A0085A1BB /* ContactGroupModel.m in Sources */,
+				34809C531C082C330085A1BB /* ContactModel.m in Sources */,
 				340579BF1C082A61005BE372 /* PinYinForObjc.m in Sources */,
 				340579A71C082A11005BE372 /* BaseViewController.m in Sources */,
 				3405798D1C0825E8005BE372 /* AppDelegate.m in Sources */,
 				340579BC1C082A61005BE372 /* HanyuPinyinOutputFormat.m in Sources */,
 				340579A41C082872005BE372 /* SearchViewController.m in Sources */,
 				3405798A1C0825E8005BE372 /* main.m in Sources */,
+				34809C5F1C0831BA0085A1BB /* SearchResultViewController.m in Sources */,
 				340579BB1C082A61005BE372 /* ChineseToPinyinResource.m in Sources */,
 				340579BE1C082A61005BE372 /* PinyinFormatter.m in Sources */,
 				340579A11C082859005BE372 /* SearchDisplayViewController.m in Sources */,
 				340579BA1C082A61005BE372 /* ChineseInclude.m in Sources */,
 				340579C01C082A61005BE372 /* PinyinHelper.m in Sources */,
+				34809C5C1C082D380085A1BB /* NSMutableArray+Filter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +418,7 @@
 				3405799E1C0825E8005BE372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
