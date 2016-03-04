@@ -21,7 +21,7 @@
     self.title=@"搜索";
     [self.view addSubview:self.ptableView];
     
-    
+    NSLog(@"001");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
